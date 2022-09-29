@@ -16,7 +16,7 @@ public class Exercicio_07_easy { //Inicio algoritmo
             inss = salario * 0.12;
         }
 
-        if (salario >= 3134.01 && salario <= 6101.06) {
+        if (salario >= 3134.41 && salario <= 6101.06) {
             inss = salario * 0.14;
         }
 
