@@ -70,7 +70,7 @@ public class Execucao_exercicios_easy {
         if (selecionaExercicio == 9){
             int numeroDigitado = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero de 1 a 10:"));
             Exercicio_09_easy ex09_easy = new Exercicio_09_easy();
-            ex09_easy.calculaTaboada(numeroDigitado);
+            ex09_easy.calculaTabuada(numeroDigitado);
         }
 
         if (selecionaExercicio == 10){
