@@ -27,7 +27,8 @@ public class TesteExercicio02_medium {
     @Test
     public void testCalculaValorTotal(){
         String valorEsperado = "1.628,89";
-        String valorAtual = df.format(ex02_medium.calculaValorTotalInvestimento(1000, ex02_medium.calculaInvestimentoJurosCompostos(1000)));
+        double valorJuros = ex02_medium.calculaInvestimentoJurosCompostos(1000);
+        String valorAtual = df.format(ex02_medium.calculaValorTotalInvestimento(1000, valorJuros));
         Assert.assertEquals(valorEsperado, valorAtual);
     }
 }
