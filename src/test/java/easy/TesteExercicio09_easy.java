@@ -1,3 +1,5 @@
+package easy;
+
 import easy.Exercicio_09_easy;
 import org.junit.BeforeClass;
 import org.junit.Test;
