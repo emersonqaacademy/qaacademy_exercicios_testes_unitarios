@@ -3,10 +3,10 @@ package medium;
 public class Exercicio_10_1_medium {
 
 
-    public int[] calculaTermoFibonacci(int elemento) {
+    public long[] calculaTermoFibonacci(int elemento) {
 
         int i = 2;
-        int fibonacci[] = new int[elemento];
+        long fibonacci[] = new long[elemento];
         fibonacci[0] = 0;
         fibonacci[1] = 1;
 
@@ -18,7 +18,7 @@ public class Exercicio_10_1_medium {
         return fibonacci;
     }
 
-    public void imprimeVetor(int[] vetor) {
+    public void imprimeVetor(long[] vetor) {
         int i = 0;
         while (i < vetor.length) {
             System.out.println("Termo: " + (i + 1) + ", valor: " + vetor[i]);

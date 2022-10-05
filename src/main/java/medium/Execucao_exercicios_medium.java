@@ -64,7 +64,7 @@ public class Execucao_exercicios_medium {
         if (selecionaExercicio == 10){
             Exercicio_10_1_medium ex10_medium = new Exercicio_10_1_medium();
             int elementoFibonacci = Integer.parseInt(JOptionPane.showInputDialog("Digite o elemento Fibonacci que voce deseja: "));
-            int [] vetorFibonacci = ex10_medium.calculaTermoFibonacci(elementoFibonacci);
+            long [] vetorFibonacci = ex10_medium.calculaTermoFibonacci(elementoFibonacci);
             ex10_medium.calculaTermoFibonacci(elementoFibonacci);
             ex10_medium.imprimeVetor(vetorFibonacci);
         }
